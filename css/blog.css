@@ -16,7 +16,7 @@ li {
 	color: #e32b1e !important;
 }
 
-.BlogBox {
+.WideBox {
   font-size: 25px !important;
   width:1050px;
   /* height: 1000px; */
@@ -42,7 +42,7 @@ img {
 	margin-right: auto;
 }
 
-.BlogBox h2 {
+.WideBox h2 {
 	text-align: center;
 }
 
@@ -50,10 +50,14 @@ h3 {
 	font-size: 30px;
 }
 
-.BlogBox a {
+.WideBox a {
 	color: white;
 }
 	
-.BlogBox a:hover {
+.WideBox a:hover {
 	color: var(--link-color);
+}
+
+.NoDots li {
+	list-style-type: none;
 }
