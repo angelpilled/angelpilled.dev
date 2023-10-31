@@ -1,0 +1,81 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Quicksand&display=swap');
+
+:root {
+    --border-color: rgba(75, 75, 75, 0.20);
+    --site-width: 825px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+main {
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 30px;
+    color: white;
+    max-width: 1000px;
+}
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+#under-title {
+    text-align: center;
+    font-size: 17px;
+}
+
+.content-box {
+    position: relative;
+    max-width: var(--site-width);
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.content-box {
+    border: var(--border-color) 1px solid;
+    border-radius: 4px;
+    background-color: var(--border-color); 
+    padding: 15px;
+}
+
+.content-box li {
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+}
+
+nav {
+    font-size: 0px;
+}
+
+nav a {
+    color: rgb(30, 96, 165); 
+}
+
+nav a:hover {
+    color: rgb(30, 122, 210);
+}
+
+p {
+    font-size: 20px;
+}
