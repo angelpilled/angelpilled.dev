@@ -68,8 +68,8 @@ function animate()
 {
     for (let lineIndex = 0; lineIndex < lineCount; lineIndex++)
     {
-	va[2*lineIndex] += 0.0065; // Bumps up velocity by the acceleration amount
-	va[2*lineIndex+1] += 0.00625;
+	va[2*lineIndex] += 0.001625 ; // Bumps up velocity by the acceleration amount
+	va[2*lineIndex+1] += 0.0015625;
 
 	pa[6*lineIndex+2] += va[2*lineIndex];
 	pa[6*lineIndex+5] += va[2*lineIndex+1];
