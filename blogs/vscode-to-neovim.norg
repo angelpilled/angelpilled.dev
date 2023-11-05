@@ -1,0 +1,42 @@
+@document.meta
+title: VSCode to Neovim
+description: Why I Switched to Neovim
+author: angelpilled
+categories: blogs
+created: 2023.11.05
+@end
+
+* VSCode to Neovim
+  -- 11/05/2023
+
+* How and why I switched from VSCode to Neovim
+  Around 5 months ago, that is, in June, I full-on converted to Arch Linux, it being my daily driver, rarely even using Windows for work/school.
+  I've used several distros, but mainly Arch for at least a year up around that point, so I knew my place in the terminal well enough, so I decided to do everything in my terminal: listening to music, file managing, package management without relying on any GUI.
+
+  I felt quite good, knowing how to do everything in the terminal. But the most important "recipe" was missing, and it was integrating programming into my daily terminal use.
+
+* How was the learning curve?
+
+  You see, I used Visual Studio Code since I got into programming, that is, about 6 years ago, I've never used any other text-editor before, or meanwhile that time.
+  Nonetheless, I decided to try out Vim, and quickly moved onto Neovim because I saw it's many options of customizability; I also wanted a light-weight editor.
+
+  I don't believe learning the Vim keybindings felt like a "chore"; but much rather a fun, great experience. I still, to this day, use the arrow keys to navigate, but I use the hjkl keys too in other programs.
+  The most frustrating challenge I've encountered was when I wanted to install plugins, even though they were pretty easy to set up after. I use VimPlug to this day, and it works really fine, no problems at all.
+
+* Differences
+
+  The biggest difference I noticed was the big difference between the two programs' memory usage. While VSCode easily consumed at least a gigabyte of my memory, Neovim uses much less resources, a maximum of 100MBs.
+  This was something I didn't notice for a long time. VSCode can eat your resources, so I don't think it's even a matter of debate whether or not one should use it.
+
+  I saw an article of a guy telling the exact opposite of this post I'm writing; he explained why he switched back to VSCode from Neovim, and he brought up some retarded takes, and the one that stood out for me was when he mentioned that modern systems can handle higher memory usage, so we shouldn't even care about memory-management.
+  This is single-handedly the most retarded statement I've read in a while, but all be to you.
+
+  As I started gaining more knowledge, customizing my awesome neovim config, I adopted the mindset of "what if I only used keyboard, and no mouse at all?", and started using only keyboard (mostly).
+  I've tried navigating with only keyboard and no mouse in VSCode before, and it didn't work out for me, so I settled for the inconvenient, inferior way of using a mouse in that time (this is a joke btw, using a mouse is still essential).
+
+  Using only keys and no mouse in terminal is easy. Using only keys and no mouse in Neovim is even easier. And after you find the right plugins, you'll make your workflow easier and 10 times more flexible.
+
+* Customizing
+  I see most people in the UNIX community get addicted to "ricing", which is customizing your system for days, only to think "hmm, this could look even better!", and proceed to spend your remaining life customizing that single piece of program.
+  I was kind-of in the same boat, though I never bothered to make my system the most aesthetically pleasing, I just wanted it to be quick and flexible. Every now and then I change the theme, add some new design, but nothing too fancy.
+  

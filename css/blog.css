@@ -1,0 +1,23 @@
+:root {
+    --border-color: rgba(75, 75, 75, 0.20);
+}
+
+body {
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+.sections {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 100%;
+    border-color: var(--border-color);
+    border-radius: 6px;
+    background-color: var(--border-color);
+    line-height: 28px;
+    max-width: 1000px;
+}
