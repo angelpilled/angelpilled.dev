@@ -4,6 +4,9 @@
 :root {
     --border-color: rgba(75, 75, 75, 0.20);
     --site-width: 825px;
+
+    --default-link-color: rgb(61, 125, 175);
+    --default-link-color-hovered: rgb(136, 125, 245);
 }
 
 * {
@@ -129,17 +132,46 @@ p {
 }
 
 .blog-entry a {
-    color: rgb(90, 50, 144);
+    color: var(--default-link-color);
     text-decoration: none;
 }
 
 .blog-entry a:hover
 {
-    color: rgb(165, 50, 144);
+    color: var(--default-link-color-hovered);
 }
 
 .blog-title {
     display: inline;
+}
+
+/* Learn page */
+
+.learn-page {
+    text-align: left;
+}
+
+.learn-page li {
+    font-size: 22px;
+    list-style-type: none;
+}
+
+.learn-page a {
+    color: var(--default-link-color);
+    text-decoration: none;
+}
+
+.learn-page a:hover {
+    color: var(--default-link-color-hovered);
+}
+
+.footnotes a {
+    color: var(--default-link-color);
+    text-decoration: none;
+}
+
+.footnotes a:hover {
+    color: var(--default-link-color-hovered);
 }
 
 /* Colors */
