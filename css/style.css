@@ -165,6 +165,15 @@ p {
     color: var(--default-link-color-hovered);
 }
 
+.footnotes a {
+    color: var(--default-link-color);
+    text-decoration: none;
+}
+
+.footnotes a:hover {
+    color: var(--default-link-color-hovered);
+}
+
 /* Colors */
 
 .twitter {

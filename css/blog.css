@@ -21,22 +21,3 @@ p {
     line-height: 28px;
     max-width: 1000px;
 }
-
-h1 {
-    margin-bottom: 15px;
-}
-
-.footnotes a {
-    color: var(--default-link-color);
-    text-decoration: none;
-}
-
-.footnotes a:hover {
-    color: var(--default-link-color-hovered);
-}
-
-li {
-    margin-left: 15px;
-    font-size: 20px;
-    list-style-type: none;
-}
